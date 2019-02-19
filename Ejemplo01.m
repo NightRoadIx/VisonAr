@@ -6,15 +6,14 @@ clc                 %Limpia la consola (en donde se ejecutan las instrucciones)
 
 %Obtener Imagen
 %imagen.jpg debe de encontrarse dentro del directorio donde se trabaja
-%esto es si se decide crear un directorio en C:\Matlab\work\pdi, las
-%imagenes y este archivo .m debe de estar dentro del directorio pdi
+%esto es si se decide crear un directorio en C:\Matlab\work, las
+%imagenes y este archivo .m debe de estar dentro del directorio
 original=imread('imagen.jpg'); %Original se vuelve matriz m x n x 3
 
 %*******Hacer cambios a la imagen en el color*******
 %Cambia a gris la imagen que se guarda en la matrix original
 gris=rgb2gray(original);
-%Aqui se hace una asignacion muy tonta pero que se tiene que hacer
-%(La razón aun me es desconocida pero si no se hace falla la ejecución)
+% Asignar el tamaño de la imagen a una variable
 r=size(original);
 M=zeros(r); %Se obtiene una matriz M tamaño m x n x 3 lleno de ceros
 %Cambia a a color Rojo
@@ -28,7 +27,7 @@ rojo=uint8(M);  %Se convierte M de formato double a entero (int)
 %esto ahorra dos sentencias for que recorrerian exactamente los mismo
 rojo(:,:,1)=original(:,:,1);
 
-%Ahora se hace los mismo con los colo9res verde y azul, las componentes 2 y
+%Ahora se hace los mismo con los colores verde y azul, las componentes 2 y
 %3 de la matriz original
 %Verde
 verde=uint8(M);
