@@ -58,3 +58,6 @@ effectiveFrameRate = 1/timePerFrame
 
 % Llamar a la función STOP para detener el dispositivo
 stop(vidobj)
+
+% Limpiar la variable
+clear vidobj
