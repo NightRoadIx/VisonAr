@@ -1,8 +1,8 @@
-# VisonAr
-Códigos sobre Visión Artificial
-Todos los códigos están comentados para facilitar la comprensión de los mismos
+# VisonAr  
+Códigos sobre Visión Artificial  
+Todos los códigos están comentados para facilitar la comprensión de los mismos  
 
---  MATLAB --
+--  MATLAB --  
 1.- Lectura de imagen, capas de color y transformación a niveles de gris (Ejemplo01.m)  
 2.- Resolución espacial de imágenes (Ejemplo02.m)  
 3.- Resolución de bits de imágenes (Intensidad) (Ejemplo03.m)  
@@ -22,7 +22,7 @@ Todos los códigos están comentados para facilitar la comprensión de los mismo
 17.- Modelos de Color (Ejemplo17.m)  
 18.- Uso de modelos de color para identificación de piel (Ejemplo18.m)  
 
--- Pyhton --
+-- Pyhton --  
 exempel001		Apertura de imágenes con OpenCV  
 exempel002		Apertura de imágenes con Matplotlib  
 exempel003		Uso del evento ratón dentro de OpenCV  
