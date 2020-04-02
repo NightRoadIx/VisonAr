@@ -53,3 +53,6 @@ exempel027		Clasificadores haarcascade para detección rostro y ojos
 exempel028		Seguir un objeto umbralizado en video  
 exempel029		Clasificador de imágenes (perros y gatos) usando un aumentado del grupo de imágenes  
 exempel030		Clasificador de imágenes con TensorFlow  
+
+hough01		    Ejemplo de la transforada de Hough para la detección de líneas  
+hough02		    Ejemplo de la transforada de Hough para la detección de circunferencias  
