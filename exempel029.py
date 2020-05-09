@@ -159,9 +159,10 @@ history = model.fit_generator(
     validation_steps=total_val // batch_size
 )
 
+#%%
 # Visualizar los resultados del entrenamiento
-acc = history.history['accuracy']
-val_acc = history.history['val_accuracy']
+acc = history.history['acc']
+val_acc = history.history['val_acc']
 
 loss = history.history['loss']
 val_loss = history.history['val_loss']
